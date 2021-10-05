@@ -1,6 +1,6 @@
 import abc
-import typing
 import dataclasses
+import typing
 
 
 @dataclasses.dataclass

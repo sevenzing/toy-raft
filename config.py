@@ -1,4 +1,5 @@
 import typing
+
 from abstract import Peer
 
 

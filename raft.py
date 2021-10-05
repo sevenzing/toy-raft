@@ -1,16 +1,16 @@
 import dataclasses
-
-import random
-from timer import Timer
 import enum
-import typing
-from abstract import AbstractRaftRPC, Peer, Registerable
 import logging
-from xmlrpc.server import SimpleXMLRPCServer
-import time
-from rpc import connect
+import random
 import socket
+import time
+import typing
+from xmlrpc.server import SimpleXMLRPCServer
+
 import config
+from abstract import AbstractRaftRPC, Peer, Registerable
+from rpc import connect
+from timer import Timer
 
 
 class RaftTimer(Timer):

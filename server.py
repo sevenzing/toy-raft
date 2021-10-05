@@ -1,8 +1,8 @@
+import logging
+import sys
+
 from config import parse_config
 from raft import Node
-import sys
-import logging
-
 
 if __name__ == '__main__':
     id = int(sys.argv[1])

@@ -1,7 +1,8 @@
-from xmlrpc.client import ServerProxy
 import contextlib
-from abstract import AbstractRaftRPC
 import typing
+from xmlrpc.client import ServerProxy
+
+from abstract import AbstractRaftRPC
 
 
 @contextlib.contextmanager
