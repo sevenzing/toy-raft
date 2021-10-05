@@ -34,6 +34,8 @@ You can also suspend some servers:
 ```
 $ python client.py
 The client starts
-$ connect localhost 5000
-$ suspend 10
+
+> connect localhost 5000
+
+> suspend 10
 ```

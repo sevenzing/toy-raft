@@ -152,7 +152,7 @@ class Node(AbstractRaftRPC, Registerable):
                 func = getattr(client, method_name)
                 try:
                     result = func(*args)
-                except (ConnectionRefusedError, socket.timeout) as e:
+                except (ConnectionRefusedError, socket.timeout):
                     result = None
                 results.append(result)
         socket.setdefaulttimeout(None)
